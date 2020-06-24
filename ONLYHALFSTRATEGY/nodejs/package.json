@@ -1,0 +1,17 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.1.0",
+    "deasync": "^0.1.14",
+    "google-protobuf": "^3.0.0",
+    "grpc": "^1.11.0",
+    "talib-binding": "git+ssh://git@github.com:Crypto-Arsenal/talib-binding.git#56d9c43a610b89be4d3de66956d5f33489b82cde",
+    "vm2": "^3.6.4"
+  }
+}
