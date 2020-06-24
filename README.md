@@ -1,1 +1,0 @@
-# crypto-arsenal-quantitive-trading
