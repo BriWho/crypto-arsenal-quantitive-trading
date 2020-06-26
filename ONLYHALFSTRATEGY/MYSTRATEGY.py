@@ -20,11 +20,11 @@ class Strategy():
         self.last_type = 'sell'
         self.last_cross_status = None
         self.close_price_trace = np.array([])
-        self.ma_long = 20
+        self.ma_long = 50
         self.ma_short = 4
         self.UP = 1
         self.DOWN = 2
-        self.N = 20
+        self.N = 25
 
     def min(self , a , b):
         return a if a < b else b
