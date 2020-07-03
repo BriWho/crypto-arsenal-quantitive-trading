@@ -78,7 +78,7 @@ class Strategy():
                         'pair': pair,
                     }
                 ]
-        elif BTC_asset > 1.0:
+        elif BTC_asset > 1.0: #wrong implement
             if current_cross == self.DOWN and self.last_cross_status == self.UP and mom < -self.N:
                 Log('sell(1)')
             if current_cross == self.UP and close_price < l_kama * 1.01 and mom < -self.N:
